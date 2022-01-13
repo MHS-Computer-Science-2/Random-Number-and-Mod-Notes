@@ -20,6 +20,11 @@ int main()
     //  3. 12 % 7 = 
     //  4. 2 % 5 = 
 
+    // If a % b == 0, then b is a multiple of a
+    // For example 16 % 4 == 0, so 4 is a multiple of 16
+    
+    
+    
     // Random numbers 
 
     // srand() uses the current time to make the random numbers random
