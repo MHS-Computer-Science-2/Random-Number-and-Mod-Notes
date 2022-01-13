@@ -19,6 +19,22 @@ int main()
     //  2. 10 % 5 = 0
     //  3. 12 % 7 = 5
     //  4. 2 % 5 = 2
+    
+    
+    // If a % b == 0, then a is a multiple of b
+    // For example 16 % 4 == 0, so 16 is a multiple of 4
+
+    int num;
+    cout << "Enter a number: " << endl;
+    cin >> num;
+
+    if (num % 4 == 0) {
+        cout << num << " is a multiple of 4";
+    }
+    else {
+        cout << num << " is NOT a multiple of 4";
+    }
+    
 
     //Random numbers 
 
