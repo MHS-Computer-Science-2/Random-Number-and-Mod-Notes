@@ -19,22 +19,17 @@ int main()
     //  2. 10 % 5 = 0
     //  3. 12 % 7 = 5
     //  4. 2 % 5 = 2
-    
-    
-    // If a % b == 0, then a is a multiple of b
-    // For example 16 % 4 == 0, so 16 is a multiple of 4
 
     int num;
     cout << "Enter a number: " << endl;
     cin >> num;
 
     if (num % 4 == 0) {
-        cout << num << " is a multiple of 4";
+        cout << num << " is a multiple of 4" << endl << endl;
     }
     else {
-        cout << num << " is NOT a multiple of 4";
+        cout << num << " is NOT a multiple of 4" << endl << endl;
     }
-    
 
     //Random numbers 
 
@@ -43,26 +38,26 @@ int main()
     srand((unsigned)time(0));
 
     //The rand() function generates a random number
-    int num;
-    num = rand();
-    cout << "A random: " << num << endl;
+    int num2;
+    num2 = rand();
+    cout << "A random: " << num2 << endl;
 
     //We can use mod to restrict the number range
-    num = rand() % 10;
+    num2 = rand() % 10;
     //possible remainders are 0-9
-    cout << "A random from 0 - 9: " << num << endl;
+    cout << "A random from 0 - 9: " << num2 << endl;
 
     //If you don't want to start at zero, add to the end
-    num = rand() % 10 + 1;
+    num2 = rand() % 10 + 1;
     //0-9 + 1 -> 1-10
-    cout << "A random from 1 - 10: " << num << endl;
+    cout << "A random from 1 - 10: " << num2 << endl;
 
     //IN GENERAL
     // rand() % how_many_values + start_value
 
-    //Random from 2-7
-    num = rand() % 6 + 2;
-    cout << "A random from 2 - 7: " << num << endl;
+    //Random from 12-17
+    num2 = rand() % 6 + 12;
+    cout << "A random from 12 - 17: " << num2 << endl;
 
 
     system("pause");
