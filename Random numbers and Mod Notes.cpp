@@ -29,7 +29,7 @@ int main()
 
     // srand() uses the current time to make the random numbers random
     // Use ONLY ONCE at the top of main()
-    srand((unsigned)time(0));
+    //srand((unsigned)time(0));
 
     // The rand() function generates a random number
     int num;
