@@ -9,49 +9,49 @@ using namespace std;
 
 int main()
 {
-    // Mod is a math operation that does division 
-    // but gives the remainder instead of the quotient
+    //Mod is a math operation that does division 
+    //but gives the remainder instead of the quotient
 
-    // In C++ "%" means Mod
+    //In C++ "%" means Mod
 
-    // Evaluate
-    //  1. 7 % 2 = 
-    //  2. 10 % 5 = 
-    //  3. 12 % 7 = 
-    //  4. 2 % 5 = 
+    //Evaluate
+    //  1. 7 % 2 = 1
+    //  2. 10 % 5 = 0
+    //  3. 12 % 7 = 5
+    //  4. 2 % 5 = 2
 
-    // If a % b == 0, then a is a multiple of b
-    // For example 16 % 4 == 0, so 16 is a multiple of 4
-    
-    
-    
-    // Random numbers 
+    int num;
+    cout << "Enter a number: " << endl;
+    cin >> num;
 
-    // srand() uses the current time to make the random numbers random
-    // Use ONLY ONCE at the top of main()
+
+    //Random numbers 
+
+    //srand() uses the current time to make the random numbers random
+    //Use ONLY ONCE at the top of main()
     //srand((unsigned)time(0));
 
-    // The rand() function generates a random number
-    int num;
-   
-    cout << "A random: " << num << endl;
+    //The rand() function generates a random number
+    int num2;
+    
+    cout << "A random: " << num2 << endl;
 
-    // We can use mod to restrict the number range
- 
-    // Possible remainders are 0-9
-    cout << "A random from 0 - 9: " << num << endl;
+    //We can use mod to restrict the number range
+    
+    //possible remainders are 0-9
+    cout << "A random from 0 - 9: " << num2 << endl;
 
-    // If you don't want to start at zero, add to the end
-   
-    // 0-9 + 1 -> 1-10
-    cout << "A random from 1 - 10: " << num << endl;
+    //If you don't want to start at zero, add to the end
+    
+    //0-9 + 1 -> 1-10
+    cout << "A random from 1 - 10: " << num2 << endl;
 
-    // IN GENERAL
+    //IN GENERAL
     // rand() % how_many_values + start_value
 
-    // Random from 2-7
+    //Random from 12-17
     
-    cout << "A random from 2 - 7: " << num << endl;
+    cout << "A random from 12 - 17: " << num2 << endl;
 
 
     system("pause");
