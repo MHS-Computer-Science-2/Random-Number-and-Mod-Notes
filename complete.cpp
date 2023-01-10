@@ -1,5 +1,6 @@
-// Random numbers and Mod Notes.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Random numbers and Mod Notes
+//I CAN explain the mod (%) operator and use it to solve problems
+//I CAN create a random number in any range
 
 #include <iostream>
 #include <cstdlib> //C Standard Library
