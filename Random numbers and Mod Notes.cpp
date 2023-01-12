@@ -16,10 +16,10 @@ int main()
     //In C++ "%" means Mod
 
     //Evaluate
-    //  1. 7 % 2 = 1
-    //  2. 10 % 5 = 0
-    //  3. 12 % 7 = 5
-    //  4. 2 % 5 = 2
+    //  1. 7 % 2 = 
+    //  2. 10 % 5 = 
+    //  3. 12 % 7 = 
+    //  4. 2 % 5 = 
 
     int num;
     cout << "Enter a number: " << endl;
