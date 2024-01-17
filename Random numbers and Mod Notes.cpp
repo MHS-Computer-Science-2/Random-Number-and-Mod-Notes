@@ -33,6 +33,11 @@ int main()
     //  4. 2 % 5  = 
     //  5. 50 % 8 =
 
+    // When the result of a mod is 0 such as  10 % 5 = 0 it means that:
+    //  1. 
+    //  2.
+    //  3. 
+
     int num;
     cout << "Enter a number: " << endl;
     cin >> num;
