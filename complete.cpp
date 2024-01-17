@@ -10,16 +10,33 @@ using namespace std;
 
 int main()
 {
-    //Mod is a math operation that does division 
-    //but gives the remainder instead of the quotient
+    // Mod is a math operation that does division 
+    // but gives the remainder instead of the quotient
 
-    //In C++ "%" means Mod
+    // In C++ "%" means Mod
 
-    //Evaluate
-    //  1. 7 % 2 = 1
+    // Example: 7 % 2
+
+    /*      3
+          ------
+         2| 7
+          - 6
+          ----
+            1 <- Remainder
+
+    */
+
+    //Evaluate:
+    //  1. 7 % 4  = 3
     //  2. 10 % 5 = 0
     //  3. 12 % 7 = 5
-    //  4. 2 % 5 = 2
+    //  4. 2 % 5  = 2
+    //  5. 50 % 8 = 2
+
+    // When the result of a mod is 0 such as  10 % 5 = 0 it means that:
+    //  1. 5 divides 10 evenly
+    //  2. 5 is a factor of 10
+    //  3. 10 is a multiple of 5
 
     int num;
     cout << "Enter a number: " << endl;
